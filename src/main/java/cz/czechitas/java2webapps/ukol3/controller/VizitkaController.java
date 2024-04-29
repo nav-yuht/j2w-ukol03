@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping;
  */
 @Controller
 public class VizitkaController {
-  @GetMapping("/")
-  public String seznam() {
-    return "seznam";
-  }
+    @GetMapping("/")
+    public String seznam() {
+        return "seznam";
+    }
 
-  @GetMapping("/detail")
-  public String detail() {
-    return "detail";
-  }
+    @GetMapping("/detail")
+    public String detail() {
+        return "detail";
+    }
 }
